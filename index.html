@@ -1,0 +1,219 @@
+<!doctype html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="SEO Starter Academy — kelas SEO intensif untuk pemula dengan real project klien USA." />
+    <title>SEO Starter Academy — Dari Nol ke Real Project</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@300;400;500&amp;family=Manrope:wght@400;500;600;700;800&amp;display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="styles.css" />
+    <style>
+      .reveal{opacity:1!important;transform:none!important}
+      h1{line-height:.92!important;letter-spacing:-.065em!important}
+      .blue-text{color:#146ef5!important}
+      .hero-conversion{display:flex;align-items:center;gap:22px;margin:34px 0 8px}
+      .hero-primary-cta{display:inline-flex;align-items:center;justify-content:space-between;gap:55px;min-width:245px;padding:17px 21px;border-radius:999px;background:#146ef5;color:#fff;text-decoration:none;font-size:13px;font-weight:700;box-shadow:0 10px 30px rgba(20,110,245,.2);transition:transform .2s,background .2s}
+      .hero-primary-cta:hover{background:#0a3fa8;transform:translateY(-2px)}
+      .hero-urgency{min-width:260px}.hero-urgency-top{display:flex;justify-content:space-between;gap:22px;margin-bottom:9px;font:10px "DM Mono",monospace;text-transform:uppercase;letter-spacing:.03em}.hero-urgency-top strong{color:#146ef5;font-weight:500}.hero-progress{width:100%;height:5px;background:#d7d7d2;border-radius:999px;overflow:hidden}.hero-progress span{display:block;width:20%;height:100%;background:#146ef5;border-radius:inherit}
+      .hero{padding-bottom:110px!important}.feature-rail{gap:14px!important;margin-bottom:30px}.feature-card{appearance:none;border:0;height:180px;background:#dededb;border-radius:24px;padding:18px;display:flex;flex-direction:column;justify-content:space-between;text-align:left;font-family:inherit;color:inherit;cursor:pointer;transition:transform .22s,background .22s,color .22s;outline:none}.feature-card>span:first-child{font:10px "DM Mono",monospace}.feature-card:hover,.feature-card:focus-visible{transform:translateY(-7px)}.feature-card:focus-visible{box-shadow:0 0 0 3px rgba(20,110,245,.3)}.feature-card.active:not(.image-card){background:#146ef5!important;color:#fff}.feature-card.active:not(.image-card) p{color:#dce9ff!important}.feature-card.image-card.active{box-shadow:0 0 0 4px #146ef5}.feature-detail{display:grid;grid-template-columns:150px 280px 1fr;gap:28px;align-items:start;border-top:1px solid #bababa;padding:25px 0 0;min-height:112px}.feature-detail>span{font:10px "DM Mono",monospace;text-transform:uppercase;color:#146ef5}.feature-detail h3{font-size:23px;line-height:1.1;letter-spacing:-.04em;margin:0}.feature-detail p{font-size:13px;line-height:1.65;color:#60605c;margin:0;max-width:630px}
+      .manifesto-copy{font-size:clamp(32px,4.6vw,68px)!important;line-height:1.1!important;letter-spacing:-.05em!important;width:70%!important;margin-left:30%!important}
+      .fit-check{padding:130px 0;background:#f4f4f1}
+      .fit-grid{display:grid;grid-template-columns:1.08fr .92fr;gap:70px;align-items:center}
+      .fit-visual{position:relative;min-height:620px;border-radius:28px;overflow:hidden;background:#111}
+      .fit-visual img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover}
+      .fit-visual:after{content:"";position:absolute;inset:0;background:linear-gradient(180deg,transparent 58%,rgba(0,0,0,.72))}
+      .fit-caption{position:absolute;z-index:1;left:26px;right:26px;bottom:24px;display:flex;justify-content:space-between;align-items:end;color:#fff}
+      .fit-caption strong{font-size:24px;letter-spacing:-.04em}.fit-caption span{font:10px "DM Mono",monospace;text-transform:uppercase;color:#a9c9ff}
+      .fit-copy h2{font-size:clamp(44px,5.2vw,76px);line-height:1.06;letter-spacing:-.05em;margin:22px 0 32px;max-width:720px}
+      .fit-copy>p{font-size:14px;line-height:1.7;color:#5f5f5b;max-width:520px}
+      .fit-points{margin-top:38px;border-top:1px solid #111}
+      .fit-point{display:grid;grid-template-columns:38px 1fr;gap:15px;padding:19px 0;border-bottom:1px solid #d7d7d2;align-items:start}
+      .fit-point span{display:grid;place-items:center;width:24px;height:24px;border-radius:50%;background:#146ef5;color:white;font-size:12px}.fit-point p{margin:2px 0 0;font-size:13px;line-height:1.5}
+      .curriculum-list .module{display:block!important;padding:0!important;border-bottom:1px solid #d7d7d2!important;background:transparent!important}
+      .curriculum-list .module-toggle{width:100%;display:grid;grid-template-columns:70px 1fr 140px 42px;gap:20px;align-items:center;padding:26px 0;border:0;background:transparent;color:inherit;text-align:left;font:inherit;cursor:pointer}
+      .curriculum-list .module-toggle:hover,.curriculum-list .module.open .module-toggle{padding-left:14px;background:#ededeb}
+      .curriculum-list .module-copy{display:flex;flex-direction:column}.curriculum-list .module-copy strong{font-size:25px;letter-spacing:-.04em}.curriculum-list .module-copy small{font-size:12px;color:#676762;margin-top:5px}.curriculum-list .module-tag{text-align:center;font:10px "DM Mono";text-transform:uppercase;border:1px solid #aaa;padding:8px 12px;border-radius:999px;justify-self:end}.curriculum-list .module-icon{display:grid;place-items:center;width:34px;height:34px;border:1px solid #aaa;border-radius:50%;font-size:21px;transition:.25s}.curriculum-list .module.open .module-icon{transform:rotate(45deg);background:#146ef5;border-color:#146ef5;color:#fff}
+      .curriculum-list .module-detail{display:grid;grid-template-columns:1.35fr 1fr;gap:70px;max-height:0!important;overflow:hidden;opacity:0!important;padding:0 56px 0 104px!important;transition:max-height .45s ease,opacity .3s ease,padding .45s ease}.curriculum-list .module.open .module-detail{max-height:360px!important;opacity:1!important;padding-top:8px!important;padding-bottom:34px!important}.curriculum-list .module-detail span{font:10px "DM Mono";text-transform:uppercase;color:#146ef5}.curriculum-list .module-detail ul{margin:16px 0 0;padding-left:18px}.curriculum-list .module-detail li{font-size:13px;line-height:1.75}.curriculum-list .module-detail p{font-size:13px;line-height:1.7;color:#5f5f5a;margin:25px 0 0}.curriculum-list .module-detail p b{color:#090909}
+      @media(max-width:900px){.manifesto-copy{width:100%!important;margin-left:0!important}.hero-conversion{margin-top:26px}.feature-detail{grid-template-columns:90px 210px 1fr}}
+      @media(max-width:900px){.fit-grid{grid-template-columns:1fr;gap:45px}.fit-visual{min-height:500px}.fit-copy{order:-1}}
+      @media(max-width:900px){.curriculum-list .module-toggle{grid-template-columns:42px 1fr 38px}.curriculum-list .module-tag{display:none}.curriculum-list .module-detail{grid-template-columns:1fr;gap:4px;padding-left:62px!important;padding-right:18px!important}.curriculum-list .module.open .module-detail{max-height:460px!important}}
+      @media(max-width:520px){.curriculum-list .module-toggle{gap:10px;padding:22px 0}.curriculum-list .module-copy strong{font-size:19px}.curriculum-list .module-copy small{font-size:11px}.curriculum-list .module-detail{padding-left:52px!important}.curriculum-list .module.open .module-detail{max-height:520px!important}}
+      .pricing{display:block}.pricing-copy{max-width:650px;margin-bottom:55px}.price-options{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:18px}.price-options .price-card{min-height:0;height:100%;box-shadow:none;padding:30px}.price-card h3{font-size:24px;margin:22px 0 20px;letter-spacing:-.04em}.price-duration{border-top:1px solid #333;border-bottom:1px solid #333;padding:18px 0;margin:24px 0}.price-duration strong,.price-duration small{display:block}.price-duration strong{font-size:22px;color:#8eb7f4;margin-bottom:5px}.price-duration small{color:#aaa}.price-badge{background:#2864e8;border-radius:8px;text-align:center;padding:10px;font:11px "DM Mono";letter-spacing:.05em}.agent-card{border:2px solid #2864e8}.agent-card .price{color:#fff}.agent-card .disclaimer{color:#9fbdf2}.price-options .price-card ul{margin-top:0}.price-options .price-card li{padding:10px 0}.price-options .price-card>a{margin-top:auto}.price-options .price-card{display:flex;flex-direction:column}.price-options .price-card .disclaimer{margin-top:14px}@media(max-width:900px){.price-options{grid-template-columns:1fr}.pricing-copy{margin-bottom:40px}}
+      @media(max-width:520px){h1{line-height:.96!important;letter-spacing:-.055em!important}.hero{padding-bottom:75px!important}.hero-conversion{align-items:stretch;flex-direction:column;gap:18px;margin:25px 0 5px}.hero-primary-cta{min-width:0;width:100%}.hero-urgency{min-width:0;width:100%}.feature-rail{gap:10px!important}.feature-card{height:135px;border-radius:18px}.feature-detail{grid-template-columns:1fr;gap:8px;padding-top:20px;min-height:175px}.feature-detail h3{font-size:21px}.manifesto-copy{font-size:34px!important;line-height:1.14!important}.fit-check{padding:85px 0}.fit-visual{min-height:380px;border-radius:20px}.fit-copy h2{font-size:48px}.fit-caption strong{font-size:18px}}
+    </style>
+  </head>
+  <body>
+    <header class="nav shell">
+      <a class="brand" href="#top" aria-label="SEO Starter Academy">
+        <span class="brand-mark">S</span>
+        <span>SEO STARTER<br />ACADEMY</span>
+      </a>
+      <nav aria-label="Navigasi utama">
+        <a href="#program">Program</a>
+        <a href="#kurikulum">Kurikulum</a>
+        <a href="#harga">Harga</a>
+      </nav>
+      <a class="nav-cta" href="#daftar">Daftar kelas <span>↗</span></a>
+    </header>
+
+    <main id="top">
+      <section class="hero shell">
+        <div class="eyebrow reveal"><span></span> Angkatan pertama · Pontianak</div>
+        <h1 class="reveal">
+          Belajar SEO.<br />
+          <span>Langsung praktik.</span><br />
+          <span class="blue-text">Client USA.</span>
+        </h1>
+        <div class="hero-conversion reveal">
+          <a class="hero-primary-cta" href="#daftar">Daftar sekarang <span>↗</span></a>
+          <div class="hero-urgency" aria-label="2 dari 10 peserta telah mendaftar">
+            <div class="hero-urgency-top"><strong>2 dari 10 telah daftar</strong><span>8 kursi tersisa</span></div>
+            <div class="hero-progress"><span></span></div>
+          </div>
+        </div>
+        <div class="hero-meta reveal">
+          <p>Kelas intensif untuk pemula yang ingin memahami SEO dari fondasi sampai eksekusi—dibimbing lewat proyek bisnis nyata di Amerika Serikat.</p>
+          <a href="#kurikulum" class="circle-link" aria-label="Lihat kurikulum"><span>↓</span></a>
+          <p class="right">10 pertemuan. Praktik langsung.<br />Dibimbing oleh praktisi SEO.</p>
+        </div>
+
+        <div class="feature-rail reveal" aria-label="Ringkasan program">
+          <button class="feature-card active" type="button" data-kicker="01 · Fondasi" data-title="Beginner Friendly" data-description="Belajar dimulai dari dasar: cara mesin pencari bekerja, search intent, struktur website, dan workflow SEO yang mudah diikuti pemula."><span>01</span><h3>Beginner Friendly</h3><p>Mulai dari fondasi</p></button>
+          <button class="feature-card image-card" type="button" data-kicker="Praktik · USA" data-title="Langsung Coba di Proyek Nyata" data-description="Pakai materi yang kamu pelajari di website bisnis Florida. Setiap pekerjaan akan dibahas dan direview sebelum dipakai."><img src="assets/seo-starter-workshop.png" alt="Peserta SEO Starter Academy berdiskusi di depan laptop" /><span class="image-card-copy"><b>Proyek Nyata</b><span>Client USA ↗</span></span></button>
+          <button class="feature-card" type="button" data-kicker="02 · Workflow" data-title="SEO + AI" data-description="Gunakan AI sebagai asisten untuk riset, analisis, dan produksi konten tanpa menghilangkan proses berpikir strategis seorang SEO Specialist."><span>02</span><h3>SEO + AI</h3><p>Workflow modern</p></button>
+          <button class="feature-card" type="button" data-kicker="03 · Hasil" data-title="Portfolio" data-description="Dokumentasikan masalah, proses, kontribusi, dan hasil pekerjaan menjadi studi kasus yang bisa kamu bawa saat mencari kerja atau klien."><span>03</span><h3>Portfolio</h3><p>Bukti kerja nyata</p></button>
+          <button class="feature-card" type="button" data-kicker="04 · Pendampingan" data-title="Mentoring" data-description="Setiap pekerjaan mendapat arahan dan review. Kamu belajar memahami alasan di balik revisi, bukan sekadar mengikuti checklist."><span>04</span><h3>Mentoring</h3><p>Review terarah</p></button>
+        </div>
+        <div class="feature-detail reveal" aria-live="polite">
+          <span id="feature-detail-kicker">01 · Fondasi</span>
+          <h3 id="feature-detail-title">Beginner Friendly</h3>
+          <p id="feature-detail-description">Belajar dimulai dari dasar: cara mesin pencari bekerja, search intent, struktur website, dan workflow SEO yang mudah diikuti pemula.</p>
+        </div>
+      </section>
+
+      <section class="manifesto dark" id="program">
+        <div class="shell">
+          <div class="section-label reveal"><span>✦</span> Tentang program</div>
+          <p class="manifesto-copy reveal">Belajar bukan cuma teori. <em>Praktikkan SEO di proyek nyata,</em> lalu bangun portofolio.</p>
+
+          <div class="project-stage reveal">
+            <div class="stage-card side"><img src="assets/hibachi-30a-side-left.png" alt="Set meja hibachi dinner dari sisi kiri" /></div>
+            <div class="stage-card main">
+              <img src="assets/hibachi-30a-dinner.png" alt="Set up meja hibachi dinner di 30A Florida" />
+              <div class="stage-overlay"><span>PROJECT PARTNER</span><strong>30A Florida</strong><small>Florida, USA</small></div>
+            </div>
+            <div class="stage-card side"><img src="assets/hibachi-30a-side-right.png" alt="Set meja hibachi dinner dari sisi kanan" /></div>
+          </div>
+          <div class="project-note reveal"><span>Real business · real workflow</span><p>Peserta bekerja dalam tim kecil untuk riset keyword, konten, on-page, dan technical SEO. Semua eksekusi melalui proses review.</p></div>
+        </div>
+      </section>
+
+      <section class="fit-check">
+        <div class="shell fit-grid">
+          <div class="fit-visual reveal">
+            <img src="assets/seo-learning-gsc.png" alt="Peserta laki-laki mempelajari Google Search Console di studio kamar" />
+            <div class="fit-caption"><strong>Belajar lewat praktik.</strong><span>Picture 02 · Search Console</span></div>
+          </div>
+          <div class="fit-copy reveal">
+            <span class="kicker">Apakah ini untukmu?</span>
+            <h2>Kelas untuk yang mau <span>benar-benar mulai.</span></h2>
+            <p>Kami langsung menunjukkan proses kerjanya. Kamu akan belajar fondasi, mencoba tools, mengerjakan brief, dan mendapat review sebelum hasilnya masuk ke portofolio.</p>
+            <div class="fit-points">
+              <div class="fit-point"><span>✓</span><p>Pemula yang ingin memulai karier sebagai SEO Specialist.</p></div>
+              <div class="fit-point"><span>✓</span><p>Mahasiswa atau fresh graduate yang butuh pengalaman proyek.</p></div>
+              <div class="fit-point"><span>✓</span><p>Pemilik bisnis yang ingin memahami cara kerja SEO secara praktis.</p></div>
+              <div class="fit-point"><span>✓</span><p>Siap belajar, mengerjakan tugas, dan menerima review.</p></div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="curriculum shell" id="kurikulum">
+        <div class="section-head reveal">
+          <div><span class="kicker">Yang akan kamu pelajari</span><h2>10 sesi untuk<br /><span>makin jago SEO.</span></h2></div>
+          <p>Kita mulai dari cara orang mencari sesuatu, lalu belajar mengolah data dan menyusun strategi yang bisa langsung dicoba.</p>
+        </div>
+
+        <div class="curriculum-list" onclick='const b=event.target.closest(".module-toggle");if(b){const m=b.closest(".module");document.querySelectorAll(".curriculum-list .module.open").forEach(x=>{if(x!==m)x.classList.remove("open")});m.classList.toggle("open");b.setAttribute("aria-expanded",m.classList.contains("open"));}'>
+          <article class="module reveal"><button class="module-toggle" aria-expanded="false"><span class="num">01</span><span class="module-copy"><strong>SEO Fundamentals</strong><small>Cara mesin pencari bekerja, struktur website, dan audit awal.</small></span><span class="module-tag">Foundation</span><span class="module-icon">+</span></button><div class="module-detail"><div><span>Materi yang dipelajari</span><ul><li>Cara crawling, indexing, dan ranking bekerja</li><li>Struktur website yang mudah dipahami Google</li><li>Pengenalan audit SEO dan prioritas masalah</li></ul></div><p><b>Praktik:</b> melakukan audit awal pada website proyek dan menyusun daftar perbaikan.</p></div></article>
+          <article class="module reveal"><button class="module-toggle" aria-expanded="false"><span class="num">02</span><span class="module-copy"><strong>Keyword Research</strong><small>Search intent, keyword mapping, serta prioritas halaman.</small></span><span class="module-tag">Research</span><span class="module-icon">+</span></button><div class="module-detail"><div><span>Materi yang dipelajari</span><ul><li>Menentukan seed keyword dan search intent</li><li>Riset volume, relevansi, dan tingkat persaingan</li><li>Mengelompokkan keyword ke halaman yang tepat</li></ul></div><p><b>Praktik:</b> membuat keyword map untuk bisnis client USA.</p></div></article>
+          <article class="module reveal"><button class="module-toggle" aria-expanded="false"><span class="num">03</span><span class="module-copy"><strong>Competitor &amp; SERP</strong><small>Membaca kompetitor, keyword gap, dan content gap.</small></span><span class="module-tag">Strategy</span><span class="module-icon">+</span></button><div class="module-detail"><div><span>Materi yang dipelajari</span><ul><li>Membaca pola halaman yang menang di SERP</li><li>Menemukan keyword dan content gap</li><li>Membedakan kompetitor bisnis dan kompetitor organik</li></ul></div><p><b>Praktik:</b> membedah tiga kompetitor dan merumuskan peluang konten.</p></div></article>
+          <article class="module reveal"><button class="module-toggle" aria-expanded="false"><span class="num">04</span><span class="module-copy"><strong>On-Page SEO</strong><small>Title, meta, heading, internal link, dan optimasi halaman.</small></span><span class="module-tag">Execute</span><span class="module-icon">+</span></button><div class="module-detail"><div><span>Materi yang dipelajari</span><ul><li>Menulis title tag dan meta description</li><li>Menyusun heading dan struktur konten</li><li>Membangun internal link yang kontekstual</li></ul></div><p><b>Praktik:</b> mengoptimasi satu halaman layanan berdasarkan keyword target.</p></div></article>
+          <article class="module reveal"><button class="module-toggle" aria-expanded="false"><span class="num">05</span><span class="module-copy"><strong>Content Writing + AI</strong><small>Membuat konten bernilai dengan workflow AI yang terarah.</small></span><span class="module-tag">Content</span><span class="module-icon">+</span></button><div class="module-detail"><div><span>Materi yang dipelajari</span><ul><li>Menyusun content brief berbasis intent</li><li>Menggunakan AI untuk riset, outline, dan editing</li><li>Menjaga akurasi, tone, dan kualitas tulisan</li></ul></div><p><b>Praktik:</b> menghasilkan draft konten yang siap direview mentor.</p></div></article>
+          <article class="module reveal"><button class="module-toggle" aria-expanded="false"><span class="num">06</span><span class="module-copy"><strong>Technical SEO</strong><small>Indexing, sitemap, canonical, broken link, dan kesehatan situs.</small></span><span class="module-tag">Technical</span><span class="module-icon">+</span></button><div class="module-detail"><div><span>Materi yang dipelajari</span><ul><li>Mengecek status index dan sitemap XML</li><li>Memahami canonical, redirect, dan robots.txt</li><li>Menemukan broken link dan masalah teknis utama</li></ul></div><p><b>Praktik:</b> membuat technical checklist beserta rekomendasi perbaikannya.</p></div></article>
+          <article class="module reveal"><button class="module-toggle" aria-expanded="false"><span class="num">07</span><span class="module-copy"><strong>GSC, GA4 &amp; Performance</strong><small>Membaca data, menemukan masalah, dan mengukur peluang.</small></span><span class="module-tag">Analytics</span><span class="module-icon">+</span></button><div class="module-detail"><div><span>Materi yang dipelajari</span><ul><li>Membaca query, click, impression, dan position</li><li>Memahami traffic dan conversion dasar di GA4</li><li>Mengubah data menjadi insight dan aksi</li></ul></div><p><b>Praktik:</b> membuat laporan performa singkat dari data website nyata.</p></div></article>
+          <article class="module reveal"><button class="module-toggle" aria-expanded="false"><span class="num">08</span><span class="module-copy"><strong>Local SEO &amp; Links</strong><small>Citation, local signals, dan outreach backlink yang relevan.</small></span><span class="module-tag">Authority</span><span class="module-icon">+</span></button><div class="module-detail"><div><span>Materi yang dipelajari</span><ul><li>Optimasi Google Business Profile dan citation</li><li>Memahami kualitas serta relevansi backlink</li><li>Menyusun pendekatan outreach yang natural</li></ul></div><p><b>Praktik:</b> membuat local SEO checklist dan daftar prospek backlink.</p></div></article>
+          <article class="module reveal"><button class="module-toggle" aria-expanded="false"><span class="num">09</span><span class="module-copy"><strong>AI Search &amp; GEO</strong><small>AI visibility, generative search, dan workflow automation.</small></span><span class="module-tag">Future</span><span class="module-icon">+</span></button><div class="module-detail"><div><span>Materi yang dipelajari</span><ul><li>Memahami perubahan pencarian berbasis AI</li><li>Membuat konten yang jelas, terstruktur, dan mudah dikutip</li><li>Menggunakan AI untuk mempercepat workflow SEO</li></ul></div><p><b>Praktik:</b> mengaudit kesiapan konten untuk Google AI Overview dan mesin jawaban.</p></div></article>
+          <article class="module reveal"><button class="module-toggle" aria-expanded="false"><span class="num">10</span><span class="module-copy"><strong>Final Project</strong><small>Presentasi hasil, roadmap SEO, dan penyusunan portofolio.</small></span><span class="module-tag">Portfolio</span><span class="module-icon">+</span></button><div class="module-detail"><div><span>Materi yang dipelajari</span><ul><li>Merangkum temuan, proses, dan rekomendasi</li><li>Menyusun roadmap SEO 90 hari</li><li>Mengubah pekerjaan menjadi studi kasus portofolio</li></ul></div><p><b>Output:</b> presentasi akhir dan studi kasus yang siap ditunjukkan kepada calon client atau recruiter.</p></div></article>
+        </div>
+      </section>
+
+      <section class="outcomes dark">
+        <div class="shell">
+          <div class="section-head inverse reveal">
+            <div><span class="kicker">Yang kamu bawa pulang</span><h2>Bukan sekadar<br /><span>sertifikat.</span></h2></div>
+            <p>Setiap peserta diarahkan untuk menghasilkan kontribusi yang layak direview dan diterapkan pada proyek nyata.</p>
+          </div>
+          <div class="outcome-grid">
+            <article class="reveal"><span>01</span><h3>Strategi</h3><p>SEO roadmap yang bisa dijelaskan, dipertanggungjawabkan, dan dikembangkan.</p></article>
+            <article class="reveal"><span>02</span><h3>Experience</h3><p>Pengalaman mengikuti workflow proyek bersama mentor dan tim kecil.</p></article>
+            <article class="reveal"><span>03</span><h3>Portfolio</h3><p>Studi kasus yang menjelaskan proses, kontribusi, dan hasil pekerjaanmu.</p></article>
+          </div>
+        </div>
+      </section>
+
+      <section class="pricing shell" id="harga">
+        <div class="pricing-copy reveal">
+          <span class="kicker">Pilih paket belajarmu</span>
+          <h2>Belajar serius.<br /><span>Punya hasil nyata.</span></h2>
+          <p>Cocok untuk kamu yang ingin mulai dari dasar, punya pengalaman proyek, dan lebih percaya diri mengerjakan SEO.</p>
+        </div>
+        <div class="price-options reveal">
+          <div class="price-card">
+            <div class="price-top"><span>FOUNDATION</span><span>ANGKATAN 01</span></div>
+            <h3>SEO Starter</h3>
+            <div><small>Biaya kelas</small><div class="price"><sup>Rp</sup>1.000.000</div><p>10 pertemuan yang padat praktik</p></div>
+            <div class="price-duration"><strong>2 Bulan</strong><small>Akses mentoring fleksibel</small></div>
+            <ul><li>10 sesi pembelajaran SEO</li><li>Real project klien USA</li><li>Keyword Research & Technical SEO</li><li>GSC, GA4 & AI SEO Basics</li><li>Portfolio & materi kerja</li><li>Bebas konsultasi selama masa mentoring</li></ul>
+            <a href="#daftar">Saya mau ikut <span>↗</span></a>
+          </div>
+          <div class="price-card agent-card">
+            <div class="price-badge">PAKET LENGKAP</div>
+            <div class="price-top"><span>SEO + AI AGENT</span><span>ADVANCED</span></div>
+            <h3>SEO + AI Agent</h3>
+            <div><small>Biaya kelas</small><div class="price"><sup>Rp</sup>1.500.000</div><p>10 pertemuan + materi AI Agent</p></div>
+            <div class="price-duration"><strong>5 Bulan</strong><small>Akses mentoring fleksibel</small></div>
+            <ul><li>Semua materi SEO Starter</li><li>Materi khusus AI Agent for SEO</li><li>MCP Integration (GSC & GA4)</li><li>SEO Reporting Automation</li><li>Build Your SEO Agent</li><li>Bebas konsultasi selama masa mentoring</li></ul>
+            <a href="#daftar">Saya mau paket lengkap <span>↗</span></a>
+            <small class="disclaimer">*Untuk praktik Agent, siapkan budget Codex secara terpisah. Biayanya ditanggung sendiri.</small>
+          </div>
+        </div>
+      </section>
+
+      <section class="faq shell">
+        <div class="section-label">FAQ</div>
+        <div class="faq-list">
+          <details><summary>Kalau saya masih pemula, bisa ikut?<span>+</span></summary><p>Bisa. Kita mulai dari dasar, lalu naik pelan-pelan sampai kamu bisa menjalankan SEO di proyek nyata.</p></details>
+          <details><summary>Perlu sudah pernah belajar SEO?<span>+</span></summary><p>Tidak perlu. Cukup punya laptop, mau mencoba, dan siap mengikuti praktik serta review.</p></details>
+          <details><summary>Bisa jamin website langsung naik ranking?<span>+</span></summary><p>Tidak ada jaminan instan. Kita fokus pada proses yang benar, data yang jelas, dan perbaikan yang konsisten.</p></details>
+          <details><summary>Nanti saya pulang membawa apa?<span>+</span></summary><p>Kamu akan punya pemahaman SEO, pengalaman mengerjakan proyek, materi kerja, dan satu studi kasus untuk portofolio.</p></details>
+        </div>
+      </section>
+
+      <section class="final-cta dark" id="daftar">
+        <div class="shell reveal">
+          <span class="kicker">Siap mulai?</span>
+          <h2>Mulai belajar.<br /><span>Bikin hasilmu sendiri.</span></h2>
+          <div class="cta-row"><p>Kuota kelas terbatas agar proses mentoring dan review tetap maksimal.</p><a href="mailto:hello@seostarteracademy.web.id">Daftar sekarang <span>↗</span></a></div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="dark">
+      <div class="shell"><a class="brand" href="#top"><span class="brand-mark">S</span><span>SEO STARTER<br />ACADEMY</span></a><p>From zero to real SEO experience.</p><span>© <span id="year"></span> · Pontianak, Indonesia</span></div>
+    </footer>
+    <script src="script.js?v=20261002-3"></script>
+  </body>
+</html>
